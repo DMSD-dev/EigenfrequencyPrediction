@@ -34,5 +34,5 @@ Use this bibtex to cite this repository:
   year={2024},  
   publisher={Github},  
   journal={GitHub repository},  
-  howpublished={\url{https://github.com/Peter12347/EigenfrequencyPrediction}},  
+  howpublished={\url{https://github.com/Peter12347/EigenfrequencyPrediction }},  
 }  
