@@ -28,11 +28,11 @@ The code is organised as follows:
 
 # Citation
 Use this bibtex to cite this repository:  
-@misc{TMB_2021,  
+@misc{EigenfrequencyPrediction_2024,  
   title={Eigenfrequency Prediction},  
   author={G. Grunert, D. Grunert, R. Behnke, S. Schäfer, X. Liu, S.R. Challagonda},  
   year={2024},  
   publisher={Github},  
   journal={GitHub repository},  
-  howpublished={\url{https://github.com/LnSchmsr/TMB}},  
+  howpublished={\url{https://github.com/Peter12347/EigenfrequencyPrediction}},  
 }  
