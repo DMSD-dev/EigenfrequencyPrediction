@@ -1,11 +1,12 @@
 # EigenfrequencyPrediction
  predict realistic eigenfrequencies of railway bridges
-This is an implementation of the paper "Deep learning based indirect monitoring to identify bridge resonant frequencies using sensors on a passing train" using Python 3, Pytorch and Ray. The model predicts the frequency of an acceleration signal using regression.
+ 
+This is an implementation of the paper "A Machine Learning Based Algorithm for the Prediction of Eigenfrequencies of Railway Bridges" using Python 3 and Pytorch. The model predicts a more realistic first bending eigenfrequency (natural frequency) of single-span, single-track filler beam bridges using polynomial regression, ANN and XGBoost.
 
 The repository contains:
 - Source code of the model created with Pytorch 
-- Training code for the simulations and real data on the Schmutter bridge.
-- The experiments used, which are discussed in the chapters.
+- Training code for the simulations
+- xxx
 
 The code is documented and designed to make the paper more comprehensible and easily extendable. If these repros are used in your research, please consider citing this repository.
 # Installation
@@ -28,9 +29,9 @@ The code is organised as follows:
 # Citation
 Use this bibtex to cite this repository:  
 @misc{TMB_2021,  
-  title={Train Measures Bridge},  
-  author={S.R. Lorenzen, H. Berthold, M. Rupp, L. Schmeiser, J. Schneider, J.   Brötzmann, C.-D. Thiele & U. Rüppel},  
-  year={2021},  
+  title={Eigenfrequency Prediction},  
+  author={G. Grunert, D. Grunert, R. Behnke, S. Schäfer, X. Liu, S.R. Challagonda},  
+  year={2024},  
   publisher={Github},  
   journal={GitHub repository},  
   howpublished={\url{https://github.com/LnSchmsr/TMB}},  
