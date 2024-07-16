@@ -4,28 +4,23 @@
 This is an implementation of the paper "A Machine Learning Based Algorithm for the Prediction of Eigenfrequencies of Railway Bridges" using Python 3 and Pytorch. The model predicts a more realistic first bending eigenfrequency (natural frequency) of single-span, single-track filler beam bridges using polynomial regression, ANN and XGBoost.
 
 The repository contains:
-- Source code of the model created with Pytorch 
-- Training code for the simulations
-- xxx
+- Files to and python files enabling the application of the final XGBoost model obtained as a result of the aforementioned paper to predict the eigenfrequencies of railway bridges 
 
-The code is documented and designed to make the paper more comprehensible and easily extendable. If these repros are used in your research, please consider citing this repository.
+**Note**: Please note the discussed application limitations discussed in the paper. Currently, we cannot further facilitate preprocessing and filtering as discussed in the paper, as this would require the publication of non-public data as reference material which is unfortunately not possible. We are still working on finding an alternative solution.
+
+The code is documented and designed to enable the applications of the findings of the paper to novel datasets even by non-technical parties. 
 # Installation
-- Clone this repository
-- Install dependencies
+- Clone or download this repository
+- Install dependencies using
 
 `pip install -r requirements.txt`
 
-- Run setup from the repository root directory
-
-`python3 setup.py install`
+Note that this requires an installation of the python programming language as well as the pip-package manager.
 
 # Code Overview
 The code is organised as follows:
-- **data:** Contains the training data used for the simulation (*dataset_0_30_100_200_1.npz*), as well as for the Schmutter. Furthermore, a smaller dataset (*debug_dataset.npz*) is included for simple debugging.
-- **experiments:** Contains the experiments used:
-- **models:** Contains the models used.
-- **tmb:** Contains the code of the package.
-
+- **main.py** enables the application of the final model to predict eigenfrequencies based on command-line arguments
+- **XGBoostPrediction.py** further facilitates ways to apply the model in ways used in the paper methodology
 # Citation
 Use this bibtex to cite this repository:  
 @misc{EigenfrequencyPrediction_2024,  
