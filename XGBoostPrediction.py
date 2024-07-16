@@ -7,7 +7,7 @@ Contact: damian.grunert@gmx.de
 
 Description:
 This Python script implements the eigenfrequency prediction for railway bridges as well as evaluation methods using the final XGBoost model 
-obtained in the paper: "..." . 
+obtained in the paper: "A Machine Learning Based Algorithm for the Prediction of Eigenfrequencies of Railway Bridges", International Journal of Structural Stability and Dynamics (IJSSD). 
 
 Notes:
 - To run this script, the python programming language as well as certain libraries have to be installed according to the requirements.txt - file
