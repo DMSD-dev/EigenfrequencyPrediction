@@ -15,7 +15,7 @@ Notes:
 - Data is expected in the following formats:
     - Features: 2D numpy array of datapoints in first dimension and second dimensions representing, in order, the following metrics:
     
-    eigenfrequency_n03_Hz,span_L_m,stiffness_EI_MNm2,mass_m_tpm,yoc_yyyy,maxlocalspeed_v_kmph,bearingcapacity_beta,heigtofconstruction_hk_m,numberofcaps,skewness_degree,bearing
+    eigenfrequency_n03_Hz,span_L_m,stiffness_EI_MNm2,mass_m_tpm,yoc_yyyy,maxlocalspeed_v_kmph,bearingcapacity_beta,heightofconstruction_hk_m,numberofcaps,skewness_degree,bearing
 
     - Labels: 2D numpy array of the measured eigenfrequency in the second dimension for each datapoint represented in the first dimension
     - Both must, row-wise, correspond to the same datapoint, and must thus in particular match in the first dimension
