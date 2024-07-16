@@ -14,7 +14,7 @@ Notes:
 - To run this script, the python programming language as well as certain libraries have to be installed according to the requirements.txt - file
     - To install these automatically, please run "pip install -r requirements.txt" in this directory using the command line  
 - As stated in the readme, the csv files must have the following entries for each row, in THIS particular order:
-     BRIDGE_ID,eigenfrequency_n03_Hz,span_L_m,stiffness_EI_MNm2,mass_m_tpm,yoc_yyyy,maxlocalspeed_v_kmph,bearingcapacity_beta_,heigtogconstruction_hk_m,numberofcaps_,skewness_degree,bearing_
+     BRIDGE_ID,eigenfrequency_n03_Hz,span_L_m,stiffness_EI_MNm2,mass_m_tpm,yoc_yyyy,maxlocalspeed_v_kmph,bearingcapacity_beta,heiftogconstruction_hk_m,numberofcaps,skewness_degree,bearing
 
 Usage:
 Use the data_path argument to specify the csv file predictions should be applied for.
