@@ -6,7 +6,7 @@ This is an implementation of the paper "A Machine Learning Based Algorithm for t
 The repository contains:
 - Files to and python files enabling the application of the final XGBoost model obtained as a result of the aforementioned paper to predict the eigenfrequencies of railway bridges 
 
-**Note**: Please note the discussed application limitations discussed in the paper. Currently, we cannot further facilitate preprocessing and filtering as discussed in the paper, as this would require the publication of non-public data as reference material which is unfortunately not possible. We are still working on finding an alternative solution.
+**Note**: Please note the discussed application limitations in the paper. Currently, we cannot further facilitate preprocessing and filtering as described, because this would require the publication of non-public data as reference material which is unfortunately not possible. We are still working on finding an alternative solution.
 
 The code is documented and designed to enable the applications of the findings of the paper to novel datasets even by non-technical parties. 
 # Installation
