@@ -1,2 +1,2 @@
-BRIDGE_ID,n0_3,STW_NUM,BIEGESTEIFIGKEIT,MASSE,BAUJAHR,V_SOLL_IST,BETA_HT_M_DEB,HOEHE_KONST_UEB_MITTE_DEB,Ssp_Randkonstruktion,WANDSCHIEFE_RAHMEN_P1_NUM2,DEB_I_LAGERUNG_UEBERBAU2
+eigenfrequency_n03_Hz,span_L_m,stiffness_EI_MNm2,mass_m_tpm,yoc_yyyy,maxlocalspeed_v_kmph,bearingcapacity_beta_,heigtogconstruction_hk_m,numberofcaps_,skewness_degree,bearing_
 23,5.57,9.32,1647,17.36,1996,140,1,0.45,0,14.49,0
