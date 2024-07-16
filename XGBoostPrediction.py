@@ -15,7 +15,7 @@ Notes:
 - Data is expected in the following formats:
     - Features: 2D numpy array of datapoints in first dimension and second dimensions representing, in order, the following metrics:
     
-    
+    n0_3,STW_NUM,BIEGESTEIFIGKEIT,MASSE,BAUJAHR,V_SOLL_IST,BETA_HT_M_DEB,HOEHE_KONST_UEB_MITTE_DEB,Ssp_Randkonstruktion,WANDSCHIEFE_RAHMEN_P1_NUM2,DEB_I_LAGERUNG_UEBERBAU2
 
     - Labels: 2D numpy array of the measured eigenfrequency in the second dimension for each datapoint represented in the first dimension
     - Both must, row-wise, correspond to the same datapoint, and must thus in particular match in the first dimension

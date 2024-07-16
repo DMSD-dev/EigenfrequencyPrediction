@@ -14,13 +14,13 @@ Notes:
 - To run this script, the python programming language as well as certain libraries have to be installed according to the requirements.txt - file
     - To install these automatically, please run "pip install -r requirements.txt" in this directory using the command line  
 - As stated in the readme, the csv files must have the following entries for each row, in THIS particular order:
-     
+     BRIDGE_ID,n0_3,STW_NUM,BIEGESTEIFIGKEIT,MASSE,BAUJAHR,V_SOLL_IST,BETA_HT_M_DEB,HOEHE_KONST_UEB_MITTE_DEB,Ssp_Randkonstruktion,WANDSCHIEFE_RAHMEN_P1_NUM2,DEB_I_LAGERUNG_UEBERBAU2
 
 Usage:
 Use the data_path argument to specify the csv file predictions should be applied for.
 
 E.g.:
-python main.py data_path='SampleData.csv'
+python main.py 'SampleData.csv'
 
 """
 
