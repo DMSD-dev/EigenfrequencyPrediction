@@ -6,7 +6,7 @@ License: MIT License
 Contact: damian.grunert@gmx.de
 
 Description:
-This Python script implements a handy way to apply the optimal model obtained in the paper ... to a given dataset.
+This Python script implements a handy way to apply the optimal model obtained in the paper "A Machine Learning Based Algorithm for the Prediction of Eigenfrequencies of Railway Bridges", International Journal of Structural Stability and Dynamics (IJSSD) to a given dataset.
 As an input, it takes a csv file of feature values for a number of datapoints with a given ID and then returns a csv file with the corresponding predictions.
 [TODO]: Preprocesses the data as to remove outliers unsuitable for model application.  
 
