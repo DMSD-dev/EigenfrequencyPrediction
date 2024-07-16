@@ -1,2 +1,2 @@
-BRIDGE_ID,eigenfrequency_n03_Hz,span_L_m,stiffness_EI_MNm2,mass_m_tpm,yoc_yyyy,maxlocalspeed_v_kmph,bearingcapacity_beta,heigtofconstruction_hk_m,numberofcaps,skewness_degree,bearing
+BRIDGE_ID,eigenfrequency_n03_Hz,span_L_m,stiffness_EI_MNm2,mass_m_tpm,yoc_yyyy,maxlocalspeed_v_kmph,bearingcapacity_beta,heightofconstruction_hk_m,numberofcaps,skewness_degree,bearing
 23,5.57,9.32,1647,17.36,1996,140,1,0.45,0,14.49,0
