@@ -1,7 +1,7 @@
 # EigenfrequencyPrediction
  predict realistic eigenfrequencies of railway bridges
  
-This is an implementation of the paper "A Machine Learning Based Algorithm for the Prediction of Eigenfrequencies of Railway Bridges" using Python 3 and Pytorch. The model predicts a more realistic first bending eigenfrequency (natural frequency) of single-span, single-track filler beam bridges using XGBoost.
+This is an implementation of the findings of the paper "A Machine Learning Based Algorithm for the Prediction of Eigenfrequencies of Railway Bridges" using Python 3. The model predicts a more realistic first bending eigenfrequency (natural frequency) of single-span, single-track filler beam bridges using XGBoost.
 
 The repository contains:
 - Files to and python files enabling the application of the final XGBoost model obtained as a result of the aforementioned paper to predict the eigenfrequencies of railway bridges 
