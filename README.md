@@ -15,12 +15,14 @@ The code is documented and designed to enable the applications of the findings o
 
 `pip install -r requirements.txt`
 
+inside the repository directory.
+
 Note that this requires an installation of the python programming language as well as the pip-package manager.
 
 # Code Overview
 The code is organised as follows:
 - **main.py** enables the application of the final model to predict eigenfrequencies based on command-line arguments
-- **XGBoostPrediction.py** further facilitates ways to apply the model in ways used in the paper methodology
+- **XGBoostPrediction.py** further facilitates ways to apply the model according to paper methodology
 # Citation
 Use this bibtex to cite this repository:  
 @misc{EigenfrequencyPrediction_2024,  
