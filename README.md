@@ -10,7 +10,7 @@ The repository contains:
 
 The code is documented and designed to enable the applications of the findings of the paper to novel datasets even by non-technical parties. 
 
-The skewness is the angle between the track centre line and the centre line of the support in degrees, but (in divergence from Ril804) not as a deviation from the right angle.
+The skewness is the angle between the track centre line and the centre line of the support in degrees, but (in divergence from DB-Ril804.1101) not as a deviation from the right angle.
 
 # Installation
 - Clone or download this repository
