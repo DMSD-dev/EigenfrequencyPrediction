@@ -9,6 +9,9 @@ The repository contains:
 **Note**: Please note the discussed application limitations in the paper. Currently, we cannot further facilitate preprocessing and filtering as described, because this would require the publication of non-public data as reference material which is unfortunately not possible. We are still working on finding an alternative solution.
 
 The code is documented and designed to enable the applications of the findings of the paper to novel datasets even by non-technical parties. 
+
+The skewness is the angle between the track centre line and the centre line of the support in degrees, but (in divergence from Ril804) not as a deviation from the right angle.
+
 # Installation
 - Clone or download this repository
 - Install dependencies using
